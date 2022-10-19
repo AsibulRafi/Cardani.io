@@ -1,0 +1,326 @@
+.homeHero {
+  position: relative;
+  width: 100%;
+  background-image: url("../assets/homeHeroBg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  @include breakpoint-down(tab) {
+    background-image: url("../assets/homeHeroBgmobile.png") !important;
+  }
+  &__wrapper {
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    padding: 30rem 15rem;
+    @media screen and (max-width: 1700px) {
+      padding: 30rem 4rem;
+    }
+    @include breakpoint-down(tab) {
+      padding: 30rem 3rem;
+    }
+    @include breakpoint-down(mobile) {
+      padding: 30rem 2rem;
+    }
+  }
+  &__content {
+    width: 674px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    @include breakpoint-down(tab) {
+      width: 100%;
+    }
+    @include breakpoint-down(mobile) {
+      text-align: center;
+    }
+    &-info {
+      h2 {
+        font-size: 4rem;
+        line-height: 60px;
+        color: #fff;
+        font-family: "Noto Sans", "Lato", sans-serif;
+        margin-bottom: 2rem;
+        font-weight: 400;
+        @include breakpoint-down(tab) {
+          font-size: 3.6rem;
+          line-height: 50px;
+        }
+        @include breakpoint-down(tab) {
+          font-size: 2.8rem;
+          line-height: 45px;
+        }
+      }
+      p {
+        font-size: 18px;
+        color: #fff;
+        line-height: 30px;
+        @include breakpoint-down(tab) {
+          font-size: 16px;
+        }
+        @include breakpoint-down(mobile) {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+}
+.hero__icon {
+  position: relative;
+  top: -18rem;
+  padding: 0rem 15rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  @media screen and (max-width: 1700px) {
+    padding: 0rem 4rem;
+  }
+  @include breakpoint-down(tab) {
+    padding: 0rem 3rem;
+    flex-direction: column;
+  }
+  @include breakpoint-down(mobile) {
+    padding: 0rem 2rem;
+  }
+  &-single {
+    height: 406px;
+    width: 454px;
+    padding: 5rem;
+    background: #65558e;
+    opacity: 1;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @include breakpoint-down(tab) {
+      width: 100%;
+    }
+    &:not(:last-child) {
+      margin-right: 2rem;
+      @include breakpoint-down(tab) {
+        margin-right: 0rem;
+        margin-bottom: 5rem;
+      }
+    }
+    img {
+      margin-bottom: 2rem;
+    }
+    h2 {
+      font-size: 20px;
+      color: #fff;
+      font-weight: 400;
+      margin-bottom: 1rem;
+      text-align: center;
+      @include breakpoint-down(mobile) {
+        font-size: 18px;
+      }
+    }
+    hr {
+      width: 100%;
+      margin-bottom: 2rem;
+    }
+    p {
+      color: #fff;
+      line-height: 30px;
+      font-size: 16px;
+      text-align: center;
+      @include breakpoint-down(mobile) {
+        font-size: 15px;
+        line-height: 24px;
+      }
+    }
+  }
+}
+.realTime {
+  &__wrapper {
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    padding: 0rem 15rem 10rem;
+    @media screen and (max-width: 1700px) {
+      padding: 0rem 4rem 10rem;
+    }
+    @include breakpoint-down(tab) {
+      padding: 0rem 3rem 10rem;
+    }
+    @include breakpoint-down(mobile) {
+      padding: 0rem 2rem 8rem;
+    }
+  }
+  &__heading {
+    &-h2 {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 2rem;
+      h2 {
+        margin-inline: 3rem;
+        color: #000;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 3.5rem;
+        text-align: center;
+        @include breakpoint-down(tab) {
+          font-size: 3rem;
+        }
+        @include breakpoint-down(mobile) {
+          font-size: 2.6rem;
+        }
+        @media screen and (max-width: 450px) {
+          font-size: 2.2rem;
+          margin-inline: 1rem;
+        }
+      }
+    }
+    p {
+      font-size: 18px;
+      text-align: center;
+      line-height: 24px;
+      @include breakpoint-down(tab) {
+        font-size: 16px;
+      }
+      @include breakpoint-down(mobile) {
+        font-size: 15px;
+      }
+    }
+  }
+  &__content {
+    margin-top: 5rem;
+    &-img {
+      text-align: center;
+      img {
+        @include breakpoint-down(laptop) {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+.info {
+  position: relative;
+  height: 100vh;
+  background: linear-gradient(
+    195.73deg,
+    #5c4a8c 11.42%,
+    rgba(92, 74, 140, 0.394901) 60.2%,
+    rgba(92, 74, 140, 0) 75.62%
+  );
+  &__wrapper {
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    padding: 10rem 15rem;
+    @media screen and (max-width: 1700px) {
+      padding: 10rem 4rem;
+    }
+    @include breakpoint-down(tab) {
+      padding: 10rem 3rem;
+    }
+    @include breakpoint-down(mobile) {
+      padding: 10rem 2rem;
+    }
+  }
+  &__heading {
+    &-h2 {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 2rem;
+      h2 {
+        margin-inline: 3rem;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 3.5rem;
+        text-align: center;
+        color: #fff;
+        @include breakpoint-down(tab) {
+          font-size: 3rem;
+        }
+        @include breakpoint-down(mobile) {
+          font-size: 2.6rem;
+        }
+        @media screen and (max-width: 450px) {
+          font-size: 2.2rem;
+          margin-inline: 1rem;
+        }
+      }
+    }
+    p {
+      font-size: 18px;
+      text-align: center;
+      line-height: 24px;
+      color: #fff;
+      @include breakpoint-down(tab) {
+        font-size: 16px;
+      }
+      @include breakpoint-down(mobile) {
+        font-size: 15px;
+        br {
+          display: none;
+        }
+      }
+    }
+  }
+}
+.reviews {
+  &__wrapper {
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    padding: 10rem 15rem;
+    @media screen and (max-width: 1700px) {
+      padding: 10rem 4rem;
+    }
+    @include breakpoint-down(tab) {
+      padding: 10rem 3rem;
+    }
+    @include breakpoint-down(mobile) {
+      padding: 10rem 2rem;
+    }
+  }
+  &__heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    h2 {
+      margin-inline: 3rem;
+      color: #000;
+      text-transform: uppercase;
+      font-weight: 500;
+      font-size: 3.5rem;
+      text-align: center;
+      @include breakpoint-down(tab) {
+        font-size: 3rem;
+      }
+      @include breakpoint-down(mobile) {
+        font-size: 2.6rem;
+      }
+      @media screen and (max-width: 450px) {
+        font-size: 2.2rem;
+        margin-inline: 1rem;
+      }
+    }
+  }
+  &__content {
+    margin-top: 5rem;
+    &-img {
+      text-align: center;
+      img {
+        @include breakpoint-down(laptop) {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

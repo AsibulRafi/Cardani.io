@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Aldrich&family=Bai+Jamjuree:wght@300;400;500;600&family=Lato:wght@400;700&family=Noto+Sans:wght@300;400;500;600&display=swap");
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Noto Sans", "Lato", sans-serif;
+  font-weight: 400;
+  color: #000;
+  background-color: #f4f4f4;
+}
+a,
+a:visited,
+a:hover {
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+}
+br {
+  @include breakpoint-down(medium) {
+    display: none;
+  }
+}
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+p {
+  font-family: "Noto Sans", sans-serif;
+  margin: 0;
+}
+.openAcc {
+  display: inline-block;
+  color: #000;
+  padding: 1.5rem 5rem;
+  font-size: 20px;
+  font-family: "Bai Jamjuree", sans-serif;
+  text-transform: uppercase;
+  margin-block: 5rem;
+  background-color: #fff;
+  border: 2px solid #fff;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+  @include breakpoint-down(mobile) {
+    padding: 1rem 3rem;
+    font-size: 16px;
+  }
+  &:hover {
+    background-color: transparent;
+    color: #fff;
+    box-shadow: 3px 5px 4px 3px rgba(0, 0, 0, 0.25);
+  }
+}
+span {
+  color: #6e53a4;
+}
+.join {
+  position: relative;
+  background: linear-gradient(261.9deg, #5c4a8c 3%, rgba(92, 74, 140, 0) 65.3%);
+  &__wrapper {
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    padding: 10rem 15rem;
+    @media screen and (max-width: 1700px) {
+      padding: 10rem 4rem;
+    }
+    @include breakpoint-down(tab) {
+      padding: 10rem 3rem;
+    }
+    @include breakpoint-down(mobile) {
+      padding: 10rem 2rem;
+    }
+  }
+  &__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    @include breakpoint-down(tab) {
+      flex-direction: column-reverse;
+    }
+    &-img {
+      img {
+        @include breakpoint-down(mobile) {
+          width: 100%;
+        }
+      }
+    }
+    &-text {
+      h2 {
+        color: #000;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 3.5rem;
+        @include breakpoint-down(tab) {
+          text-align: center;
+          font-size: 3rem;
+        }
+        @include breakpoint-down(mobile) {
+          font-size: 2.6rem;
+        }
+        @media screen and (max-width: 450px) {
+          font-size: 2.2rem;
+          margin-inline: 1rem;
+        }
+      }
+      .openAccount {
+        display: inline-block;
+        color: #000;
+        padding: 1.5rem 5rem;
+        font-size: 20px;
+        font-family: "Bai Jamjuree", sans-serif;
+        text-transform: uppercase;
+        margin-block: 5rem;
+        background-color: #fff;
+        border: 2px solid #fff;
+        font-weight: 500;
+        transition: all 0.2s ease-in-out;
+        @include breakpoint-down(mobile) {
+          padding: 1rem 3rem;
+          font-size: 16px;
+        }
+        &:hover {
+          background-color: transparent;
+          color: #000;
+          border: 2px solid #000;
+        }
+      }
+    }
+  }
+}
+.hero {
+  position: relative;
+  width: 100%;
+  background-image: url("../assets/heroBg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  @include breakpoint-down(tab) {
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background-color: #fff;
+      opacity: 0.6;
+    }
+  }
+  &__wrapper {
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    padding: 30rem 15rem;
+    @media screen and (max-width: 1700px) {
+      padding: 30rem 4rem;
+    }
+    @include breakpoint-down(tab) {
+      padding: 30rem 3rem;
+    }
+    @include breakpoint-down(mobile) {
+      padding: 30rem 2rem;
+    }
+  }
+  &__content {
+    width: 454px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    h2 {
+      font-size: 4rem;
+      line-height: 60px;
+      color: #3e2b72;
+      font-family: "Noto Sans", "Lato", sans-serif;
+      margin-bottom: 2rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      @include breakpoint-down(tab) {
+        text-align: center;
+        font-size: 3.6rem;
+        line-height: 50px;
+      }
+      @include breakpoint-down(mobile) {
+        font-size: 3.2rem;
+        line-height: 45px;
+      }
+    }
+    h4 {
+      font-size: 3rem;
+      color: #000;
+      font-family: "Noto Sans", "Lato", sans-serif;
+      margin-bottom: 2rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      @include breakpoint-down(tab) {
+        text-align: center;
+        font-size: 2.6rem;
+      }
+      @include breakpoint-down(mobile) {
+        font-size: 2.4rem;
+      }
+    }
+    p {
+      font-size: 18px;
+      color: #000;
+      line-height: 30px;
+      @include breakpoint-down(tab) {
+        font-size: 16px;
+        text-align: center;
+      }
+      @include breakpoint-down(mobile) {
+        font-size: 15px;
+      }
+    }
+    @include breakpoint-down(tab) {
+      width: 100%;
+      align-items: center;
+    }
+  }
+}

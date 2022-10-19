@@ -1,0 +1,108 @@
+.footer {
+  position: relative;
+  background-image: url("../assets/footerImg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #584684;
+    opacity: 0.7;
+  }
+  &__wrapper {
+    position: relative;
+    z-index: 100;
+    padding: 10rem 15rem 20rem;
+    @media screen and (max-width: 1700px) {
+      padding: 10rem 4rem 20rem;
+    }
+    @include breakpoint-down(tab) {
+      padding: 10rem 3rem 20rem;
+    }
+    @include breakpoint-down(mobile) {
+      padding: 10rem 2rem 15rem;
+    }
+  }
+  &__links {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 10rem;
+    grid-gap: 5rem;
+    justify-items: center;
+    text-align: center;
+    @include breakpoint-down(tab) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @include breakpoint-down(mobile) {
+      grid-template-columns: repeat(1, 1fr);
+    }
+
+    &-single {
+      h4 {
+        font-size: 2.4rem;
+        font-weight: 500;
+        color: #fff;
+        text-transform: uppercase;
+        @include breakpoint-down(mobile) {
+          font-size: 1.8rem;
+        }
+      }
+      ul {
+        list-style-type: none;
+        padding-inline-start: 0;
+        li {
+          margin-block: 1rem;
+        }
+        a {
+          color: #fff;
+          font-size: 1.5rem;
+          &:hover {
+            color: #000;
+          }
+          @include breakpoint-down(mobile) {
+            font-size: 1.4rem;
+          }
+        }
+      }
+    }
+  }
+  &__info {
+    flex-basis: 70%;
+    margin-top: 2rem;
+    color: #fff;
+    &-header {
+      font-size: 2rem;
+      font-weight: 500;
+      padding-bottom: 2rem;
+      @include breakpoint-down(mobile) {
+        font-size: 1.7rem;
+      }
+    }
+    &-text {
+      p {
+        font-size: 1.6rem;
+        line-height: 30px;
+        margin-block: 1rem;
+        font-weight: 300;
+      }
+    }
+  }
+  .copyright {
+    position: absolute;
+    background-color: #fff;
+    bottom: 3rem;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+    p {
+      color: #000;
+      font-size: 14px;
+      text-align: center;
+    }
+  }
+}
