@@ -97,10 +97,10 @@ const Privacy = () => {
                   data by using the cookies. Don`t worry, as cookies don`t have
                   any private information regarding the user in them, with the
                   exception when the user has provided such information by
-                  himself – like when opening a profile at a website. ACCESS
-                  MARKETS will utilize the cookies for the purpose of
-                  identifying and quantifying platform traffic, along with
-                  measuring how certain services and ads are performing.
+                  himself – like when opening a profile at a website. Cardani.io
+                  will utilize the cookies for the purpose of identifying and
+                  quantifying platform traffic, along with measuring how certain
+                  services and ads are performing.
                 </p>
                 <p>
                   This way Cardani.io can better gauge the ways in which the
@@ -110,10 +110,10 @@ const Privacy = () => {
                   provide to you.
                 </p>
                 <p>
-                  The collected data might also be made available to ACCESS
-                  MARKETS staff, partners, and associates. Cardani.io will not
-                  use the information for commercial purposes by providing it to
-                  any unassociated individuals or entities.
+                  The collected data might also be made available to Cardani.io
+                  staff, partners, and associates. Cardani.io will not use the
+                  information for commercial purposes by providing it to any
+                  unassociated individuals or entities.
                 </p>
                 <p>
                   When the user goes to Cardani.io, there might be other

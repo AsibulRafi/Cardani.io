@@ -50,8 +50,8 @@ const Terms = () => {
                 <hr />
                 <p>
                   All of the information and rules contained on the website
-                  might be changed at some point in time. The usage of ACCESS
-                  MARKETS and its subpages with the purpose of misusing
+                  might be changed at some point in time. The usage of
+                  Cardani.io and its subpages with the purpose of misusing
                   passwords, messing with the website`s system and misusage of
                   materials is strictly forbidden. Note that some locations
                   might not be able to access certain aspects of the website.
@@ -66,9 +66,9 @@ const Terms = () => {
                   All imagery, articles or other information mediums are
                   provided "as they are" and are all part of the Cardani.io
                   platform, but Cardani.io is not liable for the correctness or
-                  consistency of the materials. Along with that, ACCESS MARKETS
-                  is not liable for any errors or misinterpretations that might
-                  be seen in the materials. We cannot give a guarantee regarding
+                  consistency of the materials. Along with that, Cardani.io is
+                  not liable for any errors or misinterpretations that might be
+                  seen in the materials. We cannot give a guarantee regarding
                   any of the imagery, texts or any other materials provided on
                   the website. This is also true for the infringement of 3rd
                   party rights or any other claims that might arise, be it due
@@ -95,7 +95,7 @@ const Terms = () => {
                   and has the necessary money on it. The fee will be charged as
                   soon as the account inactivity reaches the 30 the day and will
                   go on until the trading activity has been resumed. If there is
-                  less than $36 on the user profile, ACCESS MARKETS can use the
+                  less than $36 on the user profile, Cardani.io can use the
                   available funds to cover the fee and then bring the account to
                   closure.
                 </p>
@@ -405,8 +405,8 @@ const Terms = () => {
                   points only. Direct engagement: Cardani.io and the user engage
                   in this contract by their own free will, as individuals,
                   entities or a related party. If this is not the case, it
-                  should be put into a written explanation. ACCESS MARKETS will
-                  not verify and accept any user actions which have not been
+                  should be put into a written explanation. Cardani.io will not
+                  verify and accept any user actions which have not been
                   approved and shared with beforehand. The user provides his
                   consent to provide Cardani.io with any relevant information
                   that might be requested. Margin: We`ve already stated that the
@@ -419,8 +419,8 @@ const Terms = () => {
                   for the same actions done by any 3rd parties related to the
                   platform. Mistakes: There are many things that might result in
                   an error in the quotation, along with 3rd parties and other
-                  things. ACCESS MARKETS keeps its privilege to make changes to
-                  an account balance if there happens to be payment a mistake in
+                  things. Cardani.io keeps its privilege to make changes to an
+                  account balance if there happens to be payment a mistake in
                   the quotation. If there is a disagreement regarding such a
                   mistake or change, it will be corrected according to the fair
                   market price of the given asset at the time the mistake
@@ -470,8 +470,8 @@ const Terms = () => {
                   on the phone or a personal notification. In such cases,
                   Cardani.io might ask the user to write down the provided
                   directions. The notification/order/instruction can be canceled
-                  only if Cardani.io agrees to it. ACCESS MARKETS has the right
-                  to change or give new directions to the user at any point in
+                  only if Cardani.io agrees to it. Cardani.io has the right to
+                  change or give new directions to the user at any point in
                   time. Once Cardani.io contacts a user in order to provide
                   instructive information, it is advised the user asks the other
                   party to provide identification. The person contacting the
@@ -523,8 +523,8 @@ const Terms = () => {
                   on the phone or a personal notification. In such cases,
                   Cardani.io might ask the user to write down the provided
                   directions. The notification/order/instruction can be canceled
-                  only if Cardani.io agrees to it. ACCESS MARKETS has the right
-                  to change or give new directions to the user at any point in
+                  only if Cardani.io agrees to it. Cardani.io has the right to
+                  change or give new directions to the user at any point in
                   time. Once Cardani.io contacts a user in order to provide
                   instructive information, it is advised the user asks the other
                   party to provide identification. The person contacting the
@@ -569,26 +569,26 @@ const Terms = () => {
                   many economic factors and market variables. This might result
                   in financial losses which are bigger than what the user was
                   initially prepared to risk. The user also concurs that he
-                  accepts the risk of losing the money he transfers to ACCESS
-                  MARKETS. The user agrees that he is not under any restriction
-                  of the law or any binding contract, which is in a disagreement
-                  or prevents him from using the Cardani.io platform. That the
-                  user has every legal right and permission to accept and be
-                  part of this statement. The user also agrees, if he represents
-                  a business or another entity, that all permissions have been
-                  obtained and he has the legal right and authority to be its
-                  representative in front of Cardani.io. Matter of the
-                  agreement: all funds transfers that have been canceled for the
-                  purpose of maintaining the security margin will be and will
-                  stay free. The user is clear regarding all matters of the law,
-                  along with all taxation laws, registration processes and other
-                  legal matters that might apply. The user agrees that all
-                  information given by Cardani.io is correct and rightful and
-                  has not caused any misinterpretation by the user or ushered
-                  him towards any particular actions. Regarding the offers, the
-                  user is aware that a compensation plan might not necessarily
-                  yield any advantage or profit, due to the unpredictability of
-                  the economic conditions and markets.
+                  accepts the risk of losing the money he transfers to
+                  Cardani.io. The user agrees that he is not under any
+                  restriction of the law or any binding contract, which is in a
+                  disagreement or prevents him from using the Cardani.io
+                  platform. That the user has every legal right and permission
+                  to accept and be part of this statement. The user also agrees,
+                  if he represents a business or another entity, that all
+                  permissions have been obtained and he has the legal right and
+                  authority to be its representative in front of Cardani.io.
+                  Matter of the agreement: all funds transfers that have been
+                  canceled for the purpose of maintaining the security margin
+                  will be and will stay free. The user is clear regarding all
+                  matters of the law, along with all taxation laws, registration
+                  processes and other legal matters that might apply. The user
+                  agrees that all information given by Cardani.io is correct and
+                  rightful and has not caused any misinterpretation by the user
+                  or ushered him towards any particular actions. Regarding the
+                  offers, the user is aware that a compensation plan might not
+                  necessarily yield any advantage or profit, due to the
+                  unpredictability of the economic conditions and markets.
                 </p>
               </div>
             </div>
@@ -699,9 +699,9 @@ const Terms = () => {
                   related instance. The user agrees that Cardani.io can record
                   the correspondence for use and reference in case of any future
                   issues regarding the user. Also, the recorded conversations
-                  belong rightfully to the platform. Also, ACCESS MARKETS has
-                  the complete right to use the recording as it sees fit,
-                  including to delete them.
+                  belong rightfully to the platform. Also, Cardani.io has the
+                  complete right to use the recording as it sees fit, including
+                  to delete them.
                 </p>
               </div>
               <div className="terms__content-info-single">
