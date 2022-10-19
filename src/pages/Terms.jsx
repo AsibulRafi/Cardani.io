@@ -111,7 +111,7 @@ const Terms = () => {
                 </p>
               </div>
             </div>
-            <hr />
+
             <div className="terms__content-info">
               <div className="terms__content-info-single">
                 <h2>3rd Party Data</h2>
@@ -589,7 +589,7 @@ const Terms = () => {
                 </p>
               </div>
             </div>
-            <hr />
+
             <div className="terms__content-info">
               <div className="terms__content-info-single">
                 <h2>Leeway/Marginal Requirements</h2>

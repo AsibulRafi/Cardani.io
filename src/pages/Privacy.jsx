@@ -138,7 +138,7 @@ const Privacy = () => {
                 </p>
               </div>
             </div>
-            <hr />
+
             <div className="terms__content-info">
               <div className="terms__content-info-single">
                 <h2>5. Other Parties.</h2>
