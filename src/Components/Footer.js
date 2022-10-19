@@ -65,7 +65,7 @@ const Footer = () => {
               the future do not constitute a reliable indicator of future
               performance. Copyright for the pages and for the screens
               displaying the pages, and for the information, material and their
-              arrangement, is owned by ACCESS MARKETS LTD all rights reserved.
+              arrangement, is owned by Cardani.io LTD all rights reserved.
             </p>
             <p>
               This information is intended for investors outside the United
@@ -79,7 +79,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="copyright">
-          <p>© 2022 ALL right reserved Access Markets</p>
+          <p>© 2022 ALL right reserved Cardani.io</p>
         </div>
       </div>
     </footer>

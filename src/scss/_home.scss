@@ -269,6 +269,58 @@
       }
     }
   }
+  &__content {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1000px;
+    margin-top: 10rem;
+    @media screen and (max-width: 1010px) {
+      width: 100%;
+    }
+    &-info {
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-bottom: 2rem;
+      gap: 2rem;
+      @include breakpoint-down(mobile) {
+        flex-direction: column;
+      }
+      h2 {
+        font-size: 3rem;
+        font-weight: 400;
+        line-height: 40px;
+        letter-spacing: 0.02em;
+        color: #fff;
+        text-align: center;
+        b {
+          font-weight: 500;
+          color: #3e2b72;
+        }
+        @include breakpoint-down(mobile) {
+          font-size: 2.4rem;
+        }
+      }
+      &-single-3 {
+        @include breakpoint-up(tab) {
+          position: absolute;
+          left: 50%;
+          transform: translateX(-50%);
+          bottom: -17rem;
+        }
+      }
+    }
+    &-line {
+      @include breakpoint-down(mobile) {
+        display: none;
+      }
+      hr {
+        border: 3px solid #f4f4f1;
+      }
+    }
+  }
 }
 .reviews {
   &__wrapper {

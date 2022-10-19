@@ -94,7 +94,38 @@ const Home = () => {
               <br /> work seamlessly across all devices.
             </p>
           </div>
-          <div className="info__content"></div>
+          <div className="info__content">
+            <div className="info__content-info">
+              <div className="info__content-info-single-1">
+                <h2>
+                  <b>650+</b>
+                  <br />
+                  thousand
+                  <br /> Registrations
+                </h2>
+              </div>
+              <div className="info__content-info-single-2">
+                <h2>
+                  <b>20+</b>
+                  <br />
+                  Million
+                  <br /> Positions Opened
+                </h2>
+              </div>
+              <div className="info__content-info-single-3">
+                <h2>
+                  <b>70+</b>
+                  <br />
+                  Billion
+                  <br />
+                  Trading Volume
+                </h2>
+              </div>
+            </div>
+            <div className="info__content-line">
+              <hr />
+            </div>
+          </div>
         </div>
       </section>
       <Join />
