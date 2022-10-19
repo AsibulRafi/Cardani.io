@@ -123,6 +123,9 @@ const Home = () => {
               </div>
             </div>
             <div className="info__content-line">
+              <div className="info__content-line-circle circle-1"></div>
+              <div className="info__content-line-circle circle-2"></div>
+              <div className="info__content-line-circle circle-3"></div>
               <hr />
             </div>
           </div>

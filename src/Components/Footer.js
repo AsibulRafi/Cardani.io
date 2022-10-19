@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 
 const Footer = () => {
   return (
@@ -10,10 +10,10 @@ const Footer = () => {
             <h4>ABOUT US</h4>
             <ul className="footer__links-single-list">
               <li>
-                <Link to="/about">About US</Link>
+                <Link to="/about#about">About US</Link>
               </li>
               <li>
-                <Link to="/about">Contact US</Link>
+                <Link to="/about#contact">Contact US</Link>
               </li>
             </ul>
           </div>

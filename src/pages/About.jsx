@@ -25,7 +25,7 @@ const About = () => {
           </div>
         </div>
       </section>
-      <section className="about">
+      <section className="about" id="about">
         <div className="about__heading">
           <img src={hLeftt} alt="headingIcon" />
           <h2>Who are We? </h2>
@@ -92,7 +92,7 @@ const About = () => {
         </div>
       </section>
       <Join />
-      <section className="contact">
+      <section className="contact" id="contact">
         <div className="contact__wrapper">
           <div className="contact__heading">
             <div className="contact__heading-h2">

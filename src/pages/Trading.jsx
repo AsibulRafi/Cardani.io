@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import hright from "../assets/hRight.png";
 import hLeftt from "../assets/hLeft.png";
 import webTraderImg1 from "../assets/webTraderImg1.png";
@@ -6,6 +6,9 @@ import webTraderImg2 from "../assets/webTraderImg2.png";
 import { Link } from "react-router-dom";
 import Join from "../Components/Join";
 const Trading = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <section className="hero">
